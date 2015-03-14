@@ -1022,6 +1022,7 @@ var blocks = undefined;
 function initPalettes(canvas, refreshCanvas, stage, cellSize, refreshCanvas, trashcan, b) {
     // Instantiate the palettes object on first load.
     var palettes = new Palettes(canvas, refreshCanvas, stage, cellSize, refreshCanvas, trashcan).
+    add('music').
     add('turtle').
     add('pen').
     add('number').
@@ -1030,7 +1031,6 @@ function initPalettes(canvas, refreshCanvas, stage, cellSize, refreshCanvas, tra
     add('blocks').
     add('actions').
     add('media').
-    add('music').
     add('sensors').
     add('extras');
 
